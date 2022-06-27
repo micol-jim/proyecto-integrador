@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Proyecto Integrador I - Eidos</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
 </head>
 
@@ -14,45 +14,74 @@
     <header>
 
         <figure>
-            <img id="logo" src="img/eidoslogo.png" alt="logo-eidos">
+            <a href="#Inicio">
+                <img id="logo" src="img/eidoslogo.png" alt="logo-eidos">
+            </a>
         </figure>
 
         <nav>
-            <ul id="menú principal">
-            <li class="menu-item">
-                <a href="#menú principal">
+            <ul id="menú-principal">
+             <li class="menu-item">
+                 <a href="#Inicio">
                     Incio</a>
-                </li>
-        <li class="menu-item">
-            <a href="#Hablemos!">
-                Contacto</a>
-            </li>
+                 </li>
+             <li class="menu-item">
+                 <a href="#Hablemos">
+                    Contacto</a>
+                 </li>
             </ul> 
         </nav>
 
     </header>
 
     <main>
-<section id="Inicio">
-    <img id=portada src="img/nala durmiendo.png" alt="foto de Nala durmiendo">
 
-    <h1> Hola! Me llamo Nala </h1>
+     <section id="Inicio">
 
-    <p> Soy de la especie felina, mi raza es mestiza y tengo pelaje atigrado. Nací el 17 de junio de 2017 (aproximadamente). Soy jugadora y dormilona profesional.
-        Mi humana se llama Micol Jimenez y nació el 30 de marzo de 1996. Vivimos juntas y felices en el barrio de Palermo. Ella es estudiante de Diseño de Indumentaria y está cursando Desarrollo Web, por eso la obligué a crear mi blog.
-         Si quieren saber más sobre su perfil profesional, pueden hacer clic en el botón de abajo :) </p>
-         
-         <button><a href="CV Micol Jimenez.pdf"target="_blank"></a> Ver CV de Micol</button>
+    <figure>
+        <img id=portada src="img/nala durmiendo.png" alt="foto de Nala durmiendo">
+    </figure>
+
+    <article>
+        <h1 class="h"> Hola! Me llamo Nala </h1>
+
+        <p id="p1"> Soy de la especie felina, mi raza es mestiza y tengo pelaje atigrado. Nací el 17 de junio de 2017 (aproximadamente). Soy jugadora y dormilona profesional.
+            Mi humana se llama Micol Jimenez y nació el 30 de marzo de 1996. Vivimos juntas y felices en el barrio de Palermo. Ella es estudiante de Diseño de Indumentaria y está cursando Desarrollo Web, por eso la obligué a crear mi blog.
+             Si quieren saber más sobre su perfil profesional, pueden hacer clic en el botón de abajo :) </p>
+                      
+              <a id="boton" href="CV Micol Jimenez.pdf" target="_blank">Ver / descargar CV de Micol</a>
+    
+            </article>
+
+        </section>
+
+<section id="Hablemos">
+
+    <h2 class="h">Hablemos!</h2>
+
+    <p id="p2">Si querés conectarte con nosotras podés hacerlo a través de correo electrónico, GuitHub o LinkedIn</p>
+
+<ul id="contacto">
+    <li>     <a href="mailto:micol.jim@gmail.com" target=_blank><button><img class="img-contacto" src="img/mail.png" alt="correo electrónico"></button></a>
+    </li>
+
+    <li>     <a href="https://github.com/micol-jim" target=_blank><button><img class="img-contacto" src="img/github.png" alt="logo GitHub"></button></a>
+    </li>
+
+    <li>     <a href="https://ar.linkedin.com/in/micol-jim" target=_blank><button> <img class="img-contacto" src="img/linkedin.png" alt="logo LinkedIn"></button></a>
+    </li>
+</ul>
+
 </section>
+
     </main>
-  
-
-         <h2>Hablemos!</h2>
-
-         <p>Si querés conectarte con nosotras podés hacerlo a través de correo electrónico, GuitHub o LinkedIn</p>
+        
 <footer>
-    <h3> Código LATAM </h3>
+
+    <h3>Código LATAM</h3>
+
 </footer>
     
 </body>
+
 </html>
